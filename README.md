@@ -5,7 +5,7 @@
 
 A comprehensive bioinformatics pipeline for integrating and analyzing multi-omics cancer data from The Cancer Genome Atlas (TCGA). This pipeline addresses one of the most pressing challenges in modern bioinformatics: effectively combining genomic, transcriptomic, and methylation data to identify cancer subtypes and biomarkers.
 
-## 🎯 Project Overview
+## Project Overview
 
 This pipeline implements state-of-the-art methods for multi-omics data integration, featuring:
 - Automated TCGA data download and preprocessing
@@ -23,7 +23,7 @@ This pipeline implements state-of-the-art methods for multi-omics data integrati
 - **Interpretability**: SHAP values for biomarker discovery
 - **Visualization**: Interactive plots and comprehensive reports
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -63,7 +63,7 @@ python scripts/03_train_model.py --data-dir data/processed --output-dir models
 python scripts/04_analyze_results.py --model-dir models --output-dir results
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 multiomics-cancer-pipeline/
@@ -116,7 +116,7 @@ multiomics-cancer-pipeline/
 └── .gitignore
 ```
 
-## 📊 Datasets
+## Datasets
 
 This pipeline works with TCGA data including:
 
@@ -133,7 +133,7 @@ The pipeline supports all 33 TCGA cancer types, including:
 - COAD (Colon Adenocarcinoma)
 - And 30 more...
 
-## 🧠 Methods
+##  Methods
 
 ### Data Integration Strategies
 
@@ -164,7 +164,7 @@ Raw Data → Preprocessing → Feature Extraction → Integration → Classifica
 - Survival analysis (Kaplan-Meier, Cox regression)
 - Biomarker identification (SHAP values)
 
-## 📈 Example Results
+## Example Results
 
 ```python
 from models.integration import MultiOmicsIntegrator
@@ -191,7 +191,7 @@ print(f"Accuracy: {results['accuracy']:.3f}")
 print(f"F1 Score: {results['f1']:.3f}")
 ```
 
-## 🔬 Scientific Background
+##  Scientific Background
 
 ### Why Multi-Omics Integration?
 
@@ -215,7 +215,7 @@ Integrating these layers reveals:
 3. **Missing Data**: Incomplete omics profiles
 4. **Interpretability**: Understanding which features drive predictions
 
-## 📚 Documentation
+##  Documentation
 
 - [Installation Guide](docs/INSTALLATION.md)
 - [Tutorial](docs/TUTORIAL.md)
@@ -223,7 +223,7 @@ Integrating these layers reveals:
 - [Methods Documentation](docs/METHODS.md)
 - [Contributing Guidelines](CONTRIBUTING.md)
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -236,7 +236,7 @@ pytest tests/test_models.py -v
 pytest --cov=models --cov-report=html
 ```
 
-## 📝 Citation
+##  Citation
 
 If you use this pipeline in your research, please cite:
 
@@ -256,27 +256,27 @@ This pipeline implements methods from:
 - Subramanian et al. (2020) - Multi-omics Data Integration
 - Chaudhary et al. (2018) - Deep Learning for Survival Prediction
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - The Cancer Genome Atlas (TCGA) for providing comprehensive cancer datasets
 - Genomic Data Commons (GDC) for data hosting and API access
 - The bioinformatics community for open-source tools and methods
 
-## 📧 Contact
+## Contact
 
 - **Author**: Dorra Rjaibi
 - **Email**: dorra.rjaibi@pasteur.com
 - **Issues**: [GitHub Issues]([https://github.com/dorra28/Multi-Omics-Cancer-Data-Integration-Pipeline/) ] 
 
-## 🔗 Useful Links
+##  Useful Links
 
 - [TCGA Data Portal](https://portal.gdc.cancer.gov/)
 - [GDC API Documentation](https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/)
