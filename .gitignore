@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.txt
+*.gz
+*.tar.gz
+*.zip
+*.h5
+*.hdf5
+
+# Exception: keep sample data
+!data/sample_data/
+
+# Models (large files)
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Results
+results/figures/*.png
+results/figures/*.pdf
+results/reports/*.html
+results/models/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# GDC downloads
+gdc_manifest*.txt
+gdc-client*
