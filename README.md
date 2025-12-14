@@ -243,9 +243,9 @@ If you use this pipeline in your research, please cite:
 ```bibtex
 @software{multiomics_pipeline,
   title = {Multi-Omics Cancer Data Integration Pipeline},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/multiomics-cancer-pipeline}
+  author = Dorra Rjaibi,
+  year = {2025},
+  url = {https://github.com/dorra28/multiomics-cancer-pipeline}
 }
 ```
 
