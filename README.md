@@ -246,8 +246,9 @@ If you use this pipeline in your research, please cite:
 @software{multiomics_pipeline,
   title = {Multi-Omics Cancer Data Integration Pipeline},
   author = Dorra Rjaibi,
-  year = {2025},
+  year = {2025} ,
   url = {https://github.com/dorra28/multiomics-cancer-pipeline}
+DOI = {https://doi.org/10.5281/zenodo.18151769}
 }
 ```
 
