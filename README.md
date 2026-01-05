@@ -2,6 +2,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/1114693076.svg)](https://doi.org/10.5281/zenodo.18151769)
+
 
 A comprehensive bioinformatics pipeline for integrating and analyzing multi-omics cancer data from The Cancer Genome Atlas (TCGA). This pipeline addresses one of the most pressing challenges in modern bioinformatics: effectively combining genomic, transcriptomic, and methylation data to identify cancer subtypes and biomarkers.
 
